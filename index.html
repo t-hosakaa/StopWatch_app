@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>StopWatch</title>
+    <meta name="description" content="ストップウォッチで遊ぼう！">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>StopWatchチャレンジ</h1>
+    </header>
+    <div class="Configurations">
+      <div class="score">
+        <p>目標スコア</p>
+        <form id="scoreform">
+          <select name="select" class="select">
+            <option value="00:05:00">5秒</option>
+            <option value="00:10:00">10秒</option>
+            <option value="00:15:00">15秒</option>
+          </select>
+        </form>
+      </div>
+      <div class="mode">
+        <p>モード選択</p>
+        <form id="modeselect">
+          <select name="select" class="select">
+            <option value="normal">ノーマル</option>
+            <option value="secret">シークレット</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div class="wrapper">
+      <p class="num" id="timer">00:00:00</p>
+    </div>
+    <div class="wrapper">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div id="modal1" class="none">
+      <div class="window">
+        <h3 id="message">おめでとうございます！！</br>チャレンジ成功です！！</h3>
+        <p id="scoremessage">あなたのスコア...<span id="yourscore1">00:00:00</span>秒</p>
+        <button id="okbtn">OK</button>
+      </div>
+    </div>
+    <div id="modal2" class="none">
+      <div class="window">
+        <h3 id="message">残念！！</br>チャレンジ失敗です・・・</h3>
+        <p id="scoremessage">あなたのスコア...<span id="yourscore2">00:00:00</span>秒</p>
+        <button id="trybtn">もう一度挑戦</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="script.js"></script>
+
+</html>

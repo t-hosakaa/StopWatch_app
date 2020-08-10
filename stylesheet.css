@@ -1,0 +1,120 @@
+header {
+  width: 80vw;
+  height: 10vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  border-bottom: solid 3px black;
+}
+
+
+
+.Configurations {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.select {
+  font-size: 15px;
+  height: 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 1px gray;
+}
+
+.score,.mode {
+  display: flex;
+}
+
+.wrapper {
+  width: 70vw;
+  text-align: center;
+  margin: 10px auto;
+  padding-top: 40px;
+}
+
+.num {
+  font-size: 150px;
+}
+
+button {
+  padding: 10px 30px;
+  margin:0 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 1px gray;
+}
+
+#start {
+  background-color: blue;
+}
+
+#stop {
+  background-color: red;
+}
+
+#reset {
+  background-color: seagreen;
+}
+
+#modal1,#modal2 {
+  width: 100vw;
+  height:100vh;
+  padding-top: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 11;
+}
+
+.window {
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#scoremessage {
+  margin-top: 10px;
+}
+
+#yourscore {
+  font-size: 20px;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#okbtn {
+  margin-top: 30px;
+  background-color: crimson;
+}
+
+#trybtn {
+  margin-top: 30px;
+  background-color: blue;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
